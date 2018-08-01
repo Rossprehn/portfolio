@@ -8,6 +8,7 @@
     "gatsby": "^1.9.223",
     "gatsby-cli": "1.1.45",
     "gatsby-link": "^1.6.38",
+    "gatsby-plugin-favicon": "^3.1.2",
     "gatsby-plugin-google-analytics": "^1.0.31",
     "gatsby-plugin-react-helmet": "^2.0.6",
     "react-fontawesome": "1.6.1",

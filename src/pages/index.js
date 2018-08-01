@@ -56,7 +56,7 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-    <h2 className="heading" id="projects">
+    <h2 className="projectheading" id="projects">
       What I’ve Done
     </h2>
     <Projects />
@@ -64,9 +64,7 @@ const IndexPage = () => (
       Who I Am
     </h2>
     <About />
-    <h2 className="heading" id="contact">
-      How to Reach Me
-    </h2>
+    <div id="contact" />
     <Footer />
   </div>
 )

@@ -271,6 +271,11 @@ p {
   color: white;
   font-weight: 200;
 }
+.projectheading {
+  font-family: 'Oswald';
+  color: white;
+  font-weight: 200;
+}
 
 /* WELCOME CSS */
 .Welcome {
@@ -402,10 +407,11 @@ button:hover {
 }
 
 /* PROJECTS */
+
 .Projects {
-  background-color: rgb(219, 250, 255);
-  margin: 0;
-  padding: 0;
+  background-image: url('./blue.jpg');
+  margin: 1rem;
+  padding: 1rem;
 }
 
 .flex-container {
@@ -541,6 +547,7 @@ ul li {
 }
 
 /* FOOTER */
+
 .Footer {
   list-style-type: none;
   width: 100%;

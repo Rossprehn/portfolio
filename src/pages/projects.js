@@ -12,7 +12,7 @@ import FSwear from '../assets/full-weredar.png'
 import Lmind from '../assets/logo-mindtime.png'
 import Lroom from '../assets/logo-roominate.png'
 import Llol from '../assets/logo-lol.png'
-import Lwear from '../assets/logo-weredar.png'
+import Lwear from '../assets/weredarLogo.png'
 
 class Projects extends React.Component {
   state = {

@@ -15,7 +15,7 @@ class Footer extends React.Component {
     return (
       <div className="Footer" href="#CONTACT">
         <div className="footer-2">
-          <h3>Social</h3>
+          <h2 className="heading">How to Reach Me</h2>
           <p>
             <OutboundLink
               href="mailto:johnross.prehn@gmail.com?Subject=Hello%20there!"
