@@ -308,7 +308,7 @@ p {
 }
 
 .Welcome .i-hov:hover {
-  color: #006fa9;
+  color: #00f2e6d0;
   display: inline-block;
 }
 
@@ -329,9 +329,9 @@ button {
 }
 
 button:hover {
-  background-color: #006fa9;
+  background-color: #00f2e6d0;
   border: 2px solid;
-  border-color: #006fa9;
+  border-color: #00f2e6d0;
   color: white;
 }
 
