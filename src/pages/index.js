@@ -17,9 +17,6 @@ const IndexPage = () => (
           </h1>
           <div>
             <h1>Full Stack Developer</h1>
-            <h3 className="welcome-intro">
-              Im also an advid board game player, biker, & mixologist
-            </h3>
             <OutboundLink
               href="https://linkedin.com/in/rossprehn"
               target="_blank"
@@ -60,15 +57,15 @@ const IndexPage = () => (
       </div>
     </section>
     <h2 className="heading" id="projects">
-      PROJECTS
+      What I’ve Done
     </h2>
     <Projects />
     <h2 className="heading" id="about">
-      ABOUT
+      Who I Am
     </h2>
     <About />
     <h2 className="heading" id="contact">
-      GET CONNECTED!
+      How to Reach Me
     </h2>
     <Footer />
   </div>

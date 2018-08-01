@@ -9,18 +9,18 @@ class About extends Component {
       <div className="About section">
         <div className="about-content">
           <h1 className="about-intro">
-            Im about <strong>tech + teamwork + making things</strong>.
+            <strong>Collaboration + Creation + Connection</strong>
           </h1>
           <p className="about-item">
-            <strong>I love to work with great people. </strong>
-            Full-stack web developer passionate about writing clean, functional
-            code focused on solving human problems while maintaining an eye for
-            detail and design. Enjoys working with teammates toward a common
-            goal.
+            I’m a full-stack web developer who is passionate about writing
+            clean, functional code that provides elegant solutions to common
+            problems. I maintain a close focus on detail and design in
+            everything I create, and I love to work with great people toward a
+            common goal.
           </p>
           <p className="about-item">
-            When I’m not coding, I’m probably either biking, mixing drinks for
-            friends, playing with my cats or playing board games.
+            When I’m not coding, I’m likely biking, mixing drinks for friends,
+            entertaining my cats or playing board games.
           </p>
         </div>
         <div className="about-content">

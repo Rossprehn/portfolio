@@ -13,12 +13,16 @@ const Header = () => (
         </Scrollchor>
       </li>
       <li className="nav-item">
-        <Scrollchor to="#about" className="nav-link">
+        <Scrollchor to="#about" className="nav-link" animate={{ offset: -106 }}>
           ABOUT
         </Scrollchor>
       </li>
       <li className="nav-item">
-        <Scrollchor to="#projects" className="nav-link">
+        <Scrollchor
+          to="#projects"
+          className="nav-link"
+          animate={{ offset: -106 }}
+        >
           PROJECTS
         </Scrollchor>
       </li>
