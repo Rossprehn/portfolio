@@ -9,7 +9,7 @@ class About extends Component {
       <div className="About section">
         <div className="about-content">
           <h1 className="about-intro">
-            <strong>Collaboration + Creation + Connection</strong>
+            <strong>Collaboration + Creation + Connection</strong>.
           </h1>
           <p className="about-item">
             I’m a full-stack web developer who is passionate about writing

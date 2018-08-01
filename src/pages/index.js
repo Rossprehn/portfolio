@@ -1,9 +1,9 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Scrollchor from 'react-scrollchor'
-import Projects from './Projects.js'
-import Footer from './Footer.js'
-import About from './About.js'
+import Projects from './projects.js'
+import Footer from './footer.js'
+import About from './about.js'
 import * as FaIconPack from 'react-icons/lib/fa'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
