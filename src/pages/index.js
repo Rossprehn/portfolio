@@ -62,7 +62,9 @@ const IndexPage = () => (
       Who I Am
     </h2>
     <About />
-    <div id="contact" />
+    <h2 className="heading" id="contact">
+      How to Reach Me
+    </h2>
     <Footer />
   </div>
 )

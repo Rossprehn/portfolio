@@ -225,7 +225,8 @@ textarea {
 /* GENERAL PAGE STYLING */
 /* Next Round Colors to add: bafffc-16223c-42454e-ffe260-dcc48e */
 .App {
-  background-image: url('./blue.jpg');
+  background-color: black;
+  /* background-image: url('./blue.jpg'); */
   text-align: center;
 }
 
@@ -494,6 +495,7 @@ ul li {
   justify-content: space-between;
   align-content: space-between;
   align-items: stretch;
+  background-image: url('./blue.jpg');
 }
 
 .about-intro {

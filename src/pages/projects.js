@@ -88,7 +88,7 @@ class Projects extends React.Component {
                         Demo <FaIconPack.FaYoutube size={25} />
                       </OutboundLink>
                     </button>{' '}
-                  </li>
+                  </li>{' '}
                   <li>
                     <button className="button i-hov">
                       <OutboundLink

@@ -15,7 +15,6 @@ class Footer extends React.Component {
     return (
       <div className="Footer" href="#CONTACT">
         <div className="footer-2">
-          <h2 className="heading">How to Reach Me</h2>
           <p>
             <OutboundLink
               href="mailto:johnross.prehn@gmail.com?Subject=Hello%20there!"
@@ -57,6 +56,14 @@ class Footer extends React.Component {
               />{' '}
               Github
             </OutboundLink>
+          </p>
+          <p>
+            <FaIconPack.FaPhoneSquare
+              size={20}
+              className="fas i-hov"
+              aria-hidden="true"
+            />{' '}
+            (720) 394 5771
           </p>
         </div>
         <div className="footer-full">
