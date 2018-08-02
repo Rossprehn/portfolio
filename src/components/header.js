@@ -21,7 +21,7 @@ const Header = () => (
         <Scrollchor
           to="#projects"
           className="nav-link"
-          animate={{ offset: -106 }}
+          animate={{ offset: -64 }}
         >
           PROJECTS
         </Scrollchor>

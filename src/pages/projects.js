@@ -81,6 +81,17 @@ class Projects extends React.Component {
                   <li>
                     <button className="button i-hov">
                       <OutboundLink
+                        href="https://youtu.be/OQbGKI5RDhY"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Demo <FaIconPack.FaYoutube size={25} />
+                      </OutboundLink>
+                    </button>{' '}
+                  </li>
+                  <li>
+                    <button className="button i-hov">
+                      <OutboundLink
                         href="https://github.com/Rossprehn/mind-time"
                         target="_blank"
                         rel="noopener noreferrer"
