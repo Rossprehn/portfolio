@@ -28,7 +28,7 @@ const Header = () => (
       </li>
       <li className="nav-item">
         <Scrollchor to="#top" className="nav-link">
-          WELCOME
+          HOME
         </Scrollchor>
       </li>
     </ul>
