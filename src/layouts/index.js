@@ -9,7 +9,7 @@ import './index.css'
 const Layout = ({ children, data }) => (
   <div>
     <Helmet
-      title="RossPrehn - Front End Engineer"
+      title="RossPrehn - Full Stack Developer"
       meta={[
         { name: 'description', content: 'Ross Portfolio Site' },
         {
