@@ -618,4 +618,7 @@ ul li {
     transition-duration: 0.4s;
     font-weight: 200;
   }
+  .thumb {
+    width: 300px;
+  }
 }
