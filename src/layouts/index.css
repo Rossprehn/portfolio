@@ -318,7 +318,7 @@ button {
   background-color: white;
   color: black;
   border: 2px solid black;
-  border-radius: 30px;
+  border-radius: 10px;
   padding: 15px 50px;
   text-align: center;
   text-decoration: none;
@@ -543,9 +543,12 @@ ul li {
 }
 
 .profile {
-  max-width: 100%;
-  border-radius: 90%;
+  position: relative;
+  max-width: 3rem;
+  /* border-radius: 90%; */
+  clip: rect(0, 350px, 280px, 45px);
   min-width: 300px;
+  padding-bottom: .2rem;
 }
 
 /* FOOTER */
