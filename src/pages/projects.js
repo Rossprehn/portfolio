@@ -63,7 +63,7 @@ class Projects extends React.Component {
           <div className="item">
             <img src={FSmind} className="thumb" onClick={this.onOpenModal1} />
             <div className="overlay">
-              <img src={Lmind} rel="ClimaStatus" height={200} />
+              <img src={Lmind} rel="mindtime" height={200} />
             </div>
             <Modal open={modal1} onClose={this.onCloseModal1} little>
               <div className="text">
@@ -108,7 +108,7 @@ class Projects extends React.Component {
           <div className="item">
             <img src={FSroom} className="thumb" onClick={this.onOpenModal2} />
             <div className="overlay">
-              <img src={Lroom} rel="ClimaStatus" height={200} />
+              <img src={Lroom} rel="ROOMIATE" height={200} />
             </div>
             <Modal open={modal2} onClose={this.onCloseModal2} little>
               <div className="text">
@@ -152,7 +152,7 @@ class Projects extends React.Component {
           <div className="item">
             <img src={FSlol} className="thumb" onClick={this.onOpenModal3} />
             <div className="overlay">
-              <img src={Llol} rel="Smart-Trak" height={200} />
+              <img src={Llol} rel="lol planner" height={200} />
             </div>
             <Modal open={modal3} onClose={this.onCloseModal3} little>
               <div className="text">
@@ -160,6 +160,9 @@ class Projects extends React.Component {
                 <strong>
                   Used to help friends organize times to play together
                 </strong>
+                <p>
+                  Used to help friends organize times to play league of legends  together. By creating events and displaying player roles and rank
+                </p>
                 <p>
                   <strong>Technologies: </strong>AntD. React. Express + Node.
                   Knex. PostgreSQL.
@@ -193,11 +196,11 @@ class Projects extends React.Component {
           <div className="item">
             <img src={FSwear} className="thumb" onClick={this.onOpenModal4} />
             <div className="overlay">
-              <img src={Lwear} rel="MapIt App" height={200} />
+              <img src={Lwear} rel="Weardar" height={200} />
             </div>
             <Modal open={modal4} onClose={this.onCloseModal4} little>
               <div className="text">
-                <h1>MapIt</h1>
+                <h1>WEREDAR</h1>
                 <strong>
                   Report werewolf sightings and map reports. Created in one-day
                   hackathon group project.{' '}
