@@ -6,7 +6,9 @@ import Scrollchor from 'react-scrollchor'
 const Header = () => (
   <div>
     <ul className="NavBar">
+    <Scrollchor to="#top">
       <img className="nav-name" src={Icon} alt="the best dev" />
+      </Scrollchor>
       <li className="nav-item nav-last">
         <Scrollchor to="#contact" className="nav-link">
           CONTACT
