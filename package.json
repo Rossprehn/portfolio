@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "ross-prehn-portfolio",
+  "description": "Portfolio site to learning more about me veiw my projects and get in touch",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Ross Prehn <johnross.prehn@gmail.com",
   "dependencies": {
     "@fortawesome/fontawesome": "1.1.4",
     "gatsby": "^1.9.223",

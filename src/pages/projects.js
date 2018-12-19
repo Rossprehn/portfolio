@@ -8,11 +8,13 @@ import FSmind from '../assets/full-mindtime.png'
 import FSroom from '../assets/full-roominate.png'
 import FSlol from '../assets/full-lol.png'
 import FSwear from '../assets/full-weredar.png'
+import FSbar from '../assets/full-bartender.png'
 
 import Lmind from '../assets/logo-mindtime.png'
 import Lroom from '../assets/logo-roominate.png'
 import Llol from '../assets/logo-lol.png'
 import Lwear from '../assets/weredarLogo.png'
+import Lbar from '../assets/logo-bartender.png'
 
 class Projects extends React.Component {
   state = {
@@ -54,18 +56,67 @@ class Projects extends React.Component {
     this.setState({ modal4: false })
   }
 
+  onOpenModal5 = () => {
+    this.setState({ modal5: true })
+  }
+
+  onCloseModal5 = () => {
+    this.setState({ modal5: false })
+  }
+
   render() {
-    const { modal1, modal2, modal3, modal4 } = this.state
+    const { modal1, modal2, modal3, modal4, modal5 } = this.state
     return (
       <div>
         <h2 className="heading">What I’ve Done</h2>
         <div className="Projects section flex-container">
           <div className="item">
-            <img src={FSmind} className="thumb" onClick={this.onOpenModal1} />
+            <img src={FSbar} className="thumb" onClick={this.onOpenModal1} />
+            <div className="overlay">
+              <img src={Lbar} rel="mindtime" height={200} />
+            </div>
+            <Modal open={modal1} onClose={this.onCloseModal1} little>
+              <div className="text">
+                <h1>Bartenders Choice</h1>
+                <strong>A drink recepie application</strong>
+                <p>
+                Expand your drink horizons with a random drink generator that guarantees you'll see a wide variety of concoctions. Join in with comments about what you like and don't about each drink. 
+                </p>
+                <p>
+                  <strong>Technologies: </strong>Vue, Knex.js, PostgreSQL, Heroku & CSS.
+                </p>
+                <ul>
+                <li>
+                    <button className="button i-hov">
+                      <OutboundLink
+                        href="https://BARTENDERS-CHOICE-5693A.FIREBASEAPP.COM"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Demo App <FaIconPack.FaExternalLink size={15} />
+                      </OutboundLink>
+                    </button>{' '}
+                    <button className="button i-hov">
+                      <OutboundLink
+                        href="https://GITHUB.COM/ROSSPREHN/DRINK-APP-2"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Code <FaIconPack.FaGithub size={15} />
+                      </OutboundLink>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </Modal>
+          </div>
+
+          <div className="item">
+            <img src={FSmind} className="thumb" onClick={this.onOpenModal2} />
             <div className="overlay">
               <img src={Lmind} rel="mindtime" height={200} />
             </div>
-            <Modal open={modal1} onClose={this.onCloseModal1} little>
+            <Modal open={modal2} onClose={this.onCloseModal2} little>
               <div className="text">
                 <h1>Mind Time</h1>
                 <strong>A native meditation application</strong>
@@ -106,11 +157,11 @@ class Projects extends React.Component {
           </div>
 
           <div className="item">
-            <img src={FSroom} className="thumb" onClick={this.onOpenModal2} />
+            <img src={FSroom} className="thumb" onClick={this.onOpenModal3} />
             <div className="overlay">
               <img src={Lroom} rel="ROOMIATE" height={200} />
             </div>
-            <Modal open={modal2} onClose={this.onCloseModal2} little>
+            <Modal open={modal3} onClose={this.onCloseModal3} little>
               <div className="text">
                 <h1>ROOMIATE</h1>
                 <strong>Question game for friends</strong>
@@ -150,11 +201,11 @@ class Projects extends React.Component {
           </div>
 
           <div className="item">
-            <img src={FSlol} className="thumb" onClick={this.onOpenModal3} />
+            <img src={FSlol} className="thumb" onClick={this.onOpenModal4} />
             <div className="overlay">
               <img src={Llol} rel="lol planner" height={200} />
             </div>
-            <Modal open={modal3} onClose={this.onCloseModal3} little>
+            <Modal open={modal4} onClose={this.onCloseModal4} little>
               <div className="text">
                 <h1>League of Legends planner</h1>
                 <strong>
@@ -194,11 +245,11 @@ class Projects extends React.Component {
           </div>
 
           <div className="item">
-            <img src={FSwear} className="thumb" onClick={this.onOpenModal4} />
+            <img src={FSwear} className="thumb" onClick={this.onOpenModal5} />
             <div className="overlay">
               <img src={Lwear} rel="Weardar" height={200} />
             </div>
-            <Modal open={modal4} onClose={this.onCloseModal4} little>
+            <Modal open={modal5} onClose={this.onCloseModal5} little>
               <div className="text">
                 <h1>WEREDAR</h1>
                 <strong>
